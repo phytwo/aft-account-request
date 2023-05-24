@@ -6,8 +6,8 @@ module "account_request_01" {
     AccountName               = "aft-test"
     ManagedOrganizationalUnit = "Sandbox" 
     SSOUserEmail              = "cyberwizard42@gmail.com"
-    SSOUserFirstName          = "cyber"
-    SSOUserLastName           = "wizard"
+    SSOUserFirstName          = "Cyber"
+    SSOUserLastName           = "Wizard"
   }
 
   account_tags = {
