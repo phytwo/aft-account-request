@@ -1,5 +1,5 @@
 module "account_request_02" {
-  source = "./modules/aft-account-request"
+  source  = "github.com/phytwo/aft-account-request.git//terraform/modules/aft-account-request?ref=v1.0.0"
 
   control_tower_parameters = {
     AccountEmail              = "cyberwizard42+dnsman@gmail.com"
